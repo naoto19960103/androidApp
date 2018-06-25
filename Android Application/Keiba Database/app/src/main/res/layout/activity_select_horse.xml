@@ -6,10 +6,24 @@
 
     <ListView
         android:id="@+id/lvSelectHorse"
+        android:entries="@array/tvHorseName"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
         android:layout_marginBottom="20dp"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投票馬："
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHorse"
+        android:text="@string/tvSelect"
+        android:textSize="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,14 +35,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvJockey"
-        android:text="@string/tvJockey"
+        android:text="@string/tvSelect"
         android:textSize="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="感想："
+        android:text="備考："
         android:textSize="20dp"/>
 
     <EditText
@@ -38,4 +52,25 @@
         android:gravity="top"
         android:layout_weight="0.4"
         android:inputType="textMultiLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSave"
+            android:enabled="false"
+            android:onClick="onSaveButton"
+            android:text="@string/btnSave"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"
+            android:onClick="onSendButton"
+            android:text="@string/btnSend"/>
+    </LinearLayout>
 </LinearLayout>
