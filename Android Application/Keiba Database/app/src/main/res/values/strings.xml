@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Keiba DatabaseSample</string>
+    <string name="app_name">G1馬投票ページ</string>
+    <string name="btnStart">スタート</string>
+    <string name="btnSave">保存</string>
+    <string name="btnSend">送信</string>
+    <string name="btnBack">スタート画面に戻る</string>
+    <string name="title">グランプリレース\n投票</string>
+    <string name="tvJockey">未選択</string>
+    <string-array name="tvHorseName">
+        <item>サトノダイヤモンド</item>
+        <item>スワーヴリチャード</item>
+        <item>アーモンドアイ</item>
+        <item>ラッキーライラック</item>
+        <item>ワグネリアン</item>
+        <item>ヴィブロス</item>
+        <item>ゴールドアクター</item>
+        <item>レイデオロ</item>
+        <item>アルアイン</item>
+        <item>シュヴァルグラン</item>
+        <item>ソウルスターリング</item>
+        <item>エポカドーロ</item>
+        <item>スーパーフェザー</item>
+        <item>キセキ</item>
+        <item>クリンチャー</item>
+        <item>サトノクラウン</item>
+    </string-array>
 </resources>
