@@ -6,16 +6,17 @@
 
     <ListView
         android:id="@+id/lvSelectHorse"
-        android:entries="@array/tvHorseName"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
-        android:layout_marginBottom="20dp"></ListView>
+        android:layout_marginBottom="20dp">
+
+    </ListView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="投票馬："
+        android:text="投票馬"
         android:textSize="20dp" />
 
     <TextView
@@ -28,7 +29,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="希望騎手："
+        android:layout_marginTop="10dp"
+        android:text="@string/Jockey"
         android:textSize="20dp" />
 
     <TextView
@@ -42,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="備考："
+        android:text="@string/memo"
         android:textSize="20dp"/>
 
     <EditText

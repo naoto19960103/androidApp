@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">G1馬投票ページ</string>
     <string name="btnStart">スタート</string>
@@ -6,22 +7,6 @@
     <string name="btnBack">スタート画面に戻る</string>
     <string name="title">グランプリレース\n投票</string>
     <string name="tvSelect">未選択</string>
-    <string-array name="tvHorseName">
-        <item>サトノダイヤモンド</item>
-        <item>スワーヴリチャード</item>
-        <item>アーモンドアイ</item>
-        <item>ラッキーライラック</item>
-        <item>ワグネリアン</item>
-        <item>ヴィブロス</item>
-        <item>ゴールドアクター</item>
-        <item>レイデオロ</item>
-        <item>アルアイン</item>
-        <item>シュヴァルグラン</item>
-        <item>ソウルスターリング</item>
-        <item>エポカドーロ</item>
-        <item>リスグラシュー</item>
-        <item>キセキ</item>
-        <item>クリンチャー</item>
-        <item>サトノクラウン</item>
-    </string-array>
+    <string name="Jockey">希望騎手</string>
+    <string name="memo">備考</string>
 </resources>
