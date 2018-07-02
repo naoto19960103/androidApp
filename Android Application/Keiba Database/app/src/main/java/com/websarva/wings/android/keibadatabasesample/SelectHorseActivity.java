@@ -4,9 +4,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
-import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -14,8 +13,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -198,12 +195,9 @@ public class SelectHorseActivity extends AppCompatActivity {
             sqlStat.bindString(5,note);
             //インサート分を実行
             sqlStat.executeInsert();
-
-
         } finally {
             db.close();
         }
-
         //保存ボタンをタップできないように変更
         btnSave.setEnabled(false);
     }
@@ -260,6 +254,8 @@ public class SelectHorseActivity extends AppCompatActivity {
 
     public void onSendButton(View view){
         Intent i = new Intent(SelectHorseActivity.this, VoteOkActivity.class);
+       // i.putExtra("horse",tvHorse.getText().toString());
+        //i.putExtra("soteiJockey",tvSoteiJockey.getText().toString());
         startActivity(i);
     }
 }

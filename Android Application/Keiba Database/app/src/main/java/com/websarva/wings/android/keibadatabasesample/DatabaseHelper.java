@@ -24,7 +24,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         sb.append("horse text,");
         sb.append("SoteiJockey text,");
         sb.append("KiboJockey text,");
-        sb.append("memo text);");
+        sb.append("memo text");
+        sb.append(");");
         String sql = sb.toString();
         //SQL実行
         db.execSQL(sql);
