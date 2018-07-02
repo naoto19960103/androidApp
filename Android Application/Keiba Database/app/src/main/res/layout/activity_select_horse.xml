@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="投票馬"
+        android:text="@string/horse"
         android:textSize="20dp" />
 
     <TextView
@@ -29,16 +29,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/Jockey"
+        android:text="@string/SouteiJockey"
         android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvJockey"
+        android:id="@+id/tvSoteiJockey"
         android:text="@string/tvSelect"
         android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Jockey"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/tvJockey"
+        android:gravity="top"
+        android:layout_weight="0.2"
+        android:inputType="text" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,7 +66,7 @@
         android:layout_height="0dp"
         android:id="@+id/etNote"
         android:gravity="top"
-        android:layout_weight="0.4"
+        android:layout_weight="0.3"
         android:inputType="textMultiLine"/>
 
     <LinearLayout
